@@ -39,9 +39,6 @@
     "test:unit:watch": "cross-env NODE_ENV=test babel-node test/watch.js unit"
   },
   "peerDependencies": {
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
-    "react-tap-event-plugin": "^1.0.0 || ^2.0.0"
   },
   "dependencies": {
     "babel-runtime": "^6.11.6",
@@ -49,8 +46,8 @@
     "keycode": "^2.1.1",
     "lodash.merge": "^4.6.0",
     "lodash.throttle": "^4.1.1",
-    "react-addons-create-fragment": "^15.0.0",
-    "react-addons-transition-group": "^15.0.0",
+    "react-addons-create-fragment": "15.0.0",
+    "react-addons-transition-group": "15.0.0",
     "react-event-listener": "^0.4.0",
     "recompose": "^0.20.2",
     "simple-assign": "^0.1.0",
@@ -98,9 +95,9 @@
     "mocha": "^3.1.2",
     "nodemon": "^1.11.0",
     "phantomjs-prebuilt": "^2.1.13",
-    "react": "^15.4.0",
-    "react-addons-test-utils": "^15.4.0",
-    "react-dom": "^15.4.0",
+    "react": "15.0.0",
+    "react-addons-test-utils": "15.0.0",
+    "react-dom": "15.0.0",
     "react-tap-event-plugin": "^2.0.0",
     "recursive-readdir-sync": "^1.0.6",
     "rimraf": "^2.5.3",
